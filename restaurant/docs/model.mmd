@@ -1,0 +1,45 @@
+classDiagram
+User "1" -- "0..*" Order
+User "1" -- "0..*" Session
+User "1" -- "0..*" CartItem
+Order "1" -- "1..*" OrderItem
+Dish "1" -- "0..*" OrderItem
+Dish "1" -- "0..*" CartItem
+class User {
+ int id
+ string name
+ string email
+ string role
+ register()
+ login()
+}
+class Order {
+ int id
+ string status
+ int total
+ cancel()
+ changeStatus()
+}
+class Dish {
+ int id
+ string name
+ int price
+ int stock
+ setPrice()
+ setStock()
+}
+class CartItem {
+ int quantity
+ setQuantity()
+ remove()
+}
+class OrderItem {
+ int price
+ int quantity
+ subtotal()
+}
+class Session {
+ string token
+ int expires
+ isValid()
+}

@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+actor Гость as Guest
+actor Клиент as Client
+actor Администратор as Admin
+Client --|> Guest
+Admin --|> Client
+rectangle "Ресторан" {
+Guest -- (Просмотр и поиск меню)
+Guest -- (Регистрация и вход)
+Client -- (Работа с корзиной)
+Client -- (Оформление заказа)
+Client -- (Мои заказы)
+Client -- (Отмена нового заказа)
+Admin -- (Редактирование блюд)
+Admin -- (Все заказы и статусы)
+Admin -- (Изменение состава заказа)
+}
+@enduml

@@ -1,0 +1,29 @@
+test_01_guest_menu (__main__.RestaurantTests.test_01_guest_menu) ... ok
+test_02_guest_cart_denied (__main__.RestaurantTests.test_02_guest_cart_denied) ... ok
+test_03_registration_cannot_grant_admin (__main__.RestaurantTests.test_03_registration_cannot_grant_admin) ... ok
+test_04_duplicate_email (__main__.RestaurantTests.test_04_duplicate_email) ... ok
+test_05_bad_password (__main__.RestaurantTests.test_05_bad_password) ... ok
+test_06_client_admin_denied (__main__.RestaurantTests.test_06_client_admin_denied) ... ok
+test_07_cart_total (__main__.RestaurantTests.test_07_cart_total) ... ok
+test_08_invalid_quantities (__main__.RestaurantTests.test_08_invalid_quantities) ... ok
+test_09_stock_limit (__main__.RestaurantTests.test_09_stock_limit) ... ok
+test_10_empty_cart (__main__.RestaurantTests.test_10_empty_cart) ... ok
+test_11_checkout_atomic (__main__.RestaurantTests.test_11_checkout_atomic) ... ok
+test_12_cancel_restores_once (__main__.RestaurantTests.test_12_cancel_restores_once) ... ok
+test_13_other_user_cannot_cancel (__main__.RestaurantTests.test_13_other_user_cannot_cancel) ... ok
+test_14_status_workflow (__main__.RestaurantTests.test_14_status_workflow) ... ok
+test_15_admin_can_purchase (__main__.RestaurantTests.test_15_admin_can_purchase) ... ok
+test_16_edit_order (__main__.RestaurantTests.test_16_edit_order) ... ok
+test_17_failed_edit_rolls_back (__main__.RestaurantTests.test_17_failed_edit_rolls_back) ... ok
+test_18_changed_stock_checkout_rolls_back (__main__.RestaurantTests.test_18_changed_stock_checkout_rolls_back) ... ok
+test_19_price_snapshot (__main__.RestaurantTests.test_19_price_snapshot) ... ok
+test_20_logout_invalidates_token (__main__.RestaurantTests.test_20_logout_invalidates_token) ... ok
+test_21_admin_add_dish (__main__.RestaurantTests.test_21_admin_add_dish) ... ok
+test_22_invalid_price (__main__.RestaurantTests.test_22_invalid_price) ... ok
+test_23_cors (__main__.RestaurantTests.test_23_cors) ... ok
+test_24_isolation_and_malformed_json (__main__.RestaurantTests.test_24_isolation_and_malformed_json) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 6.431s
+
+OK
