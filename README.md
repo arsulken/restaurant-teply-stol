@@ -31,4 +31,9 @@ python3 -m http.server 8080 --bind 127.0.0.1 --directory restaurant/frontend
 
 [Подробная инструкция, Windows и состав команды](restaurant/README.md)
 
-Общий отчёт, четыре личных отчёта и презентация находятся в корне репозитория.
+## Состав репозитория
+
+- `restaurant/frontend/` — интерфейс приложения.
+- `restaurant/backend/` — REST API, схема базы и зависимости.
+- `restaurant/tests/` — серверные и браузерные тесты.
+- `restaurant/docs/` — документация API, модели данных, снимки интерфейса и материалы проверок.
